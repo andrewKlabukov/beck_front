@@ -1,0 +1,6 @@
+.auth-form-wrapper{
+  margin: 30px auto 80px auto;
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+}

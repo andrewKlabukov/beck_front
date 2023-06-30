@@ -1,0 +1,11 @@
+.profile__naming{
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width: 495px) {
+  .profile__naming{
+    flex-direction: column;
+    width: 282px;
+  }
+}

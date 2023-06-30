@@ -1,0 +1,11 @@
+.profile__redaction{
+  display: flex;
+  gap: 18px;
+}
+
+@media all and (max-width: 468px) {
+  .profile__redaction{
+    position: relative;
+    gap:1px;
+  }
+}

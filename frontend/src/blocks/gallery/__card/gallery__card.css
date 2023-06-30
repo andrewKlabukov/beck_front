@@ -1,0 +1,11 @@
+.gallery__card{
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 0px;
+  margin: 0 auto;
+  max-width: 282px;
+  object-fit: cover;
+  position: relative;
+}
+
+

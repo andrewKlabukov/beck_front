@@ -1,0 +1,36 @@
+.auth-form-wrapper__input{
+  background-color: #000;
+  margin-bottom: 30px;
+  width: 100%;
+  padding-bottom: 9px;
+  font-size: 14px;
+  line-height: 17px;
+  border-bottom: 2px solid #CCC;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-style: normal;
+  font-weight: 400;
+  color: #CCCCCC;
+  outline: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #CCC;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #CCC;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #CCC;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #CCC;
+}
+
+.auth-form-wrapper__input:focus {
+  border-bottom: 2px solid #CCCCCC;
+  /*border-top: rgba(0,0,0,0);*/
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
