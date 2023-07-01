@@ -28,11 +28,7 @@ const options = {
 
 app.use(function(req, res, next) {
   const { origin } = req.headers; // Сохраняем источник запроса в переменную origin
-  // проверяем, что источник запроса есть среди разрешённых
-  if (options.includes(origin)) {
-    res.header('Access-Control-Allow-Origin', origin);
-  }
-
+    res.header('*', origin);
   next();
 });
 
