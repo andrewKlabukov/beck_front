@@ -20,8 +20,8 @@ const { PORT = 3001 } = process.env;
 const options = {
   origin: [
     'http://localhost:3000',
-    'https://lechkarpov.students.nomoredomains.xyz',
-    'http://lechkarpov.students.nomoredomains.xyz',
+    'https://AndreyKlabukov.students.nomoreparties.sbs',
+    'http://AndreyKlabukov.students.nomoreparties.sbs',
   ],
   credentials: true,
 };
