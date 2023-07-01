@@ -119,10 +119,10 @@ class Api {
 }
 
 export const api = new Api({
-  baseUrl: `${window.location.protocol}//${process.env.REACT_APP_API_URL || '//localhost:3001'}`,
-  // baseUrl: 'http://localhost:3001',
+  //baseUrl: `${window.location.protocol}//${process.env.REACT_APP_API_URL || '//localhost:3001'}`,
+  baseUrl: 'http://api.AndreyKla.students.nomoreparties.sbs',
   headers: {
-    // authorization: '322327ea-4136-41b9-989d-cc6e37a8bd67',
+
     'Content-Type': 'application/json'
   }
 }
