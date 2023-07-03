@@ -10,16 +10,15 @@
     "dev": "nodemon app.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lexKarpov/express-mesto-gha.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lexKarpov/express-mesto-gha/issues"
+    "url": "https://github.com/andrewKlabukov/react-mesto-api-full-gha/issues"
   },
-  "homepage": "https://github.com/lexKarpov/express-mesto-gha#readme",
+
   "devDependencies": {
     "eslint": "^8.18.0",
     "eslint-config-airbnb-base": "^15.0.0",
